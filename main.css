@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating-container {
+  padding: 20px;
+  width: 300px;
+  background-color: rgb(24 21 21);
+  border-radius: 10px;
+}
+.star {
+  margin-bottom: 10px;
+}
+.star img {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(53, 53, 53);
+}
+.text {
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+.text .title {
+  color: white;
+
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text .des {
+  color: rgb(136, 136, 136);
+
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.rates-number {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(136, 136, 136);
+  margin-bottom: 20px;
+}
+.rates-number span {
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgb(53, 53, 53);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.rates-number span:hover {
+  background-color: rgb(97, 97, 97);
+  color: #fff;
+}
+
+.rates-number span.active {
+  background-color: rgb(253 106 2);
+  color: #fff;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  background-color: rgb(253 106 2);
+  color: #fff;
+  border: none;
+  padding: 8px 0;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+a:hover,
+a:focus {
+  background-color: #fff;
+  color: rgb(253 106 2);
+}
+
+/* ################ */
+.thanking-container {
+  padding: 20px;
+  width: 300px;
+  background-color: rgb(24 21 21);
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+}
+.th-img {
+  margin-bottom: 20px;
+}
+.th-img img {
+  width: 100px;
+  height: 70px;
+}
+.th-text {
+  padding: 5px 15px;
+  font-size: 13px;
+  border-radius: 20px;
+  color: rgba(253, 107, 2, 0.74);
+  width: fit-content;
+  margin: auto;
+  background-color: rgb(53, 53, 53);
+  margin-bottom: 20px;
+}
+.thank-text {
+  margin-bottom: 20px;
+}
+.thank-text .title {
+  color: white;
+
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.thank-text .des {
+  color: rgb(136, 136, 136);
+
+  font-size: 12px;
+  line-height: 1.6;
+}
